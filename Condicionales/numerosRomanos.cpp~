@@ -1,0 +1,15 @@
+#include<iostream>
+
+int main(){
+  int numero, unidades, decenas, centenas, millar;
+  std::cout<<"Digite un número: ";
+  std::cin>>numero;
+  int prueba;
+  unidades = numero%10; numero /= 10;
+  //decenas = numero%10; numero /=10;
+  //centenas = numero%10  numero /=10;
+  
+  std::cout<<numero<<std::endl;
+  return 0;
+}
+  
